@@ -1,0 +1,71 @@
+/* Estilos generales */
+body {
+    font-family: <style>
+    @import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap');
+    </style>;
+    background-color: #fcabdd;
+    margin: 100px;
+    padding: 100px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos para el contenedor principal */
+#app {
+    width: 500px;
+    background-color: #ebc6e4;
+    padding: 60px;
+    border: 3px; #ebc6e4;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el formulario */
+form# {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Estilos al input */
+input {
+    width: 75%;
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #fce2ce;
+    border-radius: 3px;
+}
+
+/* Estilos al boton */
+button {
+    padding: 5px 8px;
+    background-color: #a200ff;
+    color: rgb(30, 28, 31);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Estilos para la lista */
+ul {
+    list-style: none;
+    padding: 5px;
+}
+
+/* Estilos para el elemento de la lista */
+li {
+    background-color: #f8f66f;
+    padding: 10px;
+    border: 1px solid #f5af76;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilos para el elemento completado de la lista */
+li.completed {
+    text-decoration: line-through;
+    color: #1a1b1b;   
+}
